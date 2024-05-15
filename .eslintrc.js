@@ -25,7 +25,7 @@ module.exports = {
     'react/prop-types': 'off',
   },
   overrides: [
-  // Configuration for TypeScript files
+    // Configuration for TypeScript files
     {
       files: ['**/*.ts', '**/*.tsx'],
       plugins: ['@typescript-eslint', 'unused-imports', 'tailwindcss', 'simple-import-sort'],
@@ -55,6 +55,5 @@ module.exports = {
         'unused-imports/no-unused-vars': ['error', { argsIgnorePattern: '^_' }],
       },
     },
-  ]
+  ],
 };
-
