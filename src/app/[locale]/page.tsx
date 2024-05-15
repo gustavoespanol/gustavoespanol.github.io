@@ -1,7 +1,6 @@
 import { getTranslations } from 'next-intl/server';
 
 import { CTA } from '@/templates/CTA';
-import { FAQ } from '@/templates/FAQ';
 import { Features } from '@/templates/Features';
 import { Footer } from '@/templates/Footer';
 import { Hero } from '@/templates/Hero';
@@ -27,7 +26,6 @@ export default function IndexPage() {
       <Hero />
       <Features />
       <Pricing />
-      <FAQ />
       <CTA />
       <Footer />
     </>
