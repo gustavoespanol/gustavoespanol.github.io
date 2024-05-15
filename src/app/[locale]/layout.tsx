@@ -41,7 +41,6 @@ export default function RootLayout({
   params: { locale: string };
 }) {
   // Validate that the incoming `locale` parameter is valid
-  console.log(params, 'params');
   if (!AllLocales.includes(params.locale)) notFound();
 
   // Using internationalization in Client Components

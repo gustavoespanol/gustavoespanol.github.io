@@ -8,6 +8,7 @@ const nextConfig = withNextIntlConfig({
   eslint: {
     dirs: ['.'],
   },
+  output: "export",
   poweredByHeader: false,
   reactStrictMode: true,
   webpack: (config) => {
