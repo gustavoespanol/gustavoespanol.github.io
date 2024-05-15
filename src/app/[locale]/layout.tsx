@@ -1,8 +1,7 @@
 import '@/styles/global.css';
 
-import { notFound } from 'next/navigation';
-import { NextIntlClientProvider, useMessages } from 'next-intl';
-import { getTranslations, unstable_setRequestLocale } from 'next-intl/server';
+import { NextIntlClientProvider } from 'next-intl';
+import { getMessages, getTranslations, unstable_setRequestLocale } from 'next-intl/server';
 
 import { AllLocales } from '@/utils/AppConfig';
 
@@ -26,7 +25,7 @@ export async function generateStaticParams() {
   }));
 }
 
-export default function RootLayout({
+export default async function RootLayout({
   children,
   params,
 }: {
@@ -35,11 +34,9 @@ export default function RootLayout({
 }) {
   // Enable static rendering
   unstable_setRequestLocale(params.locale);
-  // Validate that the incoming `locale` parameter is valid
-  if (!AllLocales.includes(params.locale)) notFound();
 
   // Using internationalization in Client Components
-  const messages = useMessages();
+  const messages = await getMessages();
 
   return (
     <html lang={params.locale}>
