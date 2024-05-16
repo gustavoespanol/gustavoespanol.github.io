@@ -9,7 +9,7 @@ const PricingInformation = (props: { buttonList: Record<PlanType, React.ReactNod
   const t = useTranslations('PricingPlan');
 
   return (
-    <div className="grid grid-cols-3 gap-x-6">
+    <div className="grid grid-cols-1 gap-x-6 gap-y-8 md:grid-cols-3">
       {PricingPlanList.map((plan) => (
         <PricingCard
           key={plan.id}

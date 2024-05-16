@@ -6,6 +6,9 @@ const withNextIntl = createNextIntlPlugin('./src/libs/i18n.ts');
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'export',
+  images: {
+    unoptimized: true,
+  },
 };
 
 module.exports = withNextIntl(nextConfig);
