@@ -2,8 +2,8 @@ import { EnvelopeClosedIcon, RocketIcon } from '@radix-ui/react-icons';
 import { useTranslations } from 'next-intl';
 
 import { buttonVariants } from '@/components/ui/button';
-import { CenteredHero } from '@/features/landing/CenteredHero';
 import { Section } from '@/features/landing/Section';
+import { TextBoxHero } from '@/features/landing/TextBoxHero';
 
 const Hero = () => {
   const t = useTranslations('Hero');
@@ -13,7 +13,7 @@ const Hero = () => {
       <>
         <div className="w-full flex-wrap place-items-center items-center overflow-hidden">
           <div className="flex size-full max-h-screen items-center justify-center overflow-hidden">
-            <div className="z-10 flex h-auto max-h-full w-full flex-col items-stretch gap-1 px-4 pb-[120px] pt-[60px] lg:max-h-[calc(100%-120px)] lg:flex-row lg:gap-16 lg:p-0">
+            <div className="z-10 flex h-auto max-h-full w-full flex-col items-stretch gap-1 px-4 pb-[120px] pt-[60px] lg:max-h-[calc(100%-120px)] lg:flex-row lg:gap-8 lg:p-0">
               <div
                 className="relative flex h-auto w-full justify-center text-center text-4xl lg:text-right lg:text-6xl"
                 style={{ aspectRatio: '1 / 1' }}
@@ -54,7 +54,7 @@ const Hero = () => {
               </div>
               <div className="w-full self-center">
                 <div className="flex flex-col items-center gap-2 ">
-                  <CenteredHero
+                  <TextBoxHero
                     title={t.rich('title', {
                       important: (chunks) => (
                         <span className="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 bg-clip-text text-transparent">
