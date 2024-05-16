@@ -15,9 +15,6 @@
     "primary_button": "My method",
     "secondary_button": "Contact me!"
   },
-  "Sponsors": {
-    "title": "Sponsored by"
-  },
   "Services": {
     "section_title": "Services",
     "service1_title": "Translation",
@@ -48,10 +45,24 @@
     "group_feature_3": "Cost-effective",
     "plan_interval": "hour"
   },
-  "CTA": {
-    "title": "You are ready?",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    "button_text": "Star on GitHub"
+  "Contact": {
+    "title": "Contact me :)",
+    "description": "Please fill out this form and let's get the conversation started!",
+    "name": "Name",
+    "email": "Email",
+    "phone": "Phone/WhatsApp",
+    "subject": "Subject",
+    "message": "Message",
+    "send_message": "Send message",
+    "error": {
+      "required_field": "Required field",
+      "invalid_email": "Invalid email",
+      "must_be_a_number": "Must be a number"
+    },
+    "message_sent": {
+      "success": "Your message has been sent successfully!",
+      "error": "An error occurred while sending your message. Please try again later."
+    }
   },
   "Footer": {
     "product": "Product",
@@ -62,91 +73,5 @@
     "terms_of_service": "Terms Of Service",
     "privacy_policy": "Privacy Policy",
     "designed_by": "Designed by <author></author>"
-  },
-  "ProtectFallback": {
-    "not_enough_permission": "You do not have the permissions to perform this action"
-  },
-  "SignIn": {
-    "meta_title": "Sign in",
-    "meta_description": "Seamlessly sign in to your account with our user-friendly login process."
-  },
-  "SignUp": {
-    "meta_title": "Sign up",
-    "meta_description": "Effortlessly create an account through our intuitive sign-up process."
-  },
-  "DashboardLayout": {
-    "home": "Home",
-    "todos": "Todos",
-    "members": "Members",
-    "billing": "Billing",
-    "settings": "Settings"
-  },
-  "Dashboard": {
-    "meta_title": "SaaS Template Dashboard",
-    "meta_description": "A free and open-source landing page template for your SaaS business, built with Next.js, TypeScript, Shadcn UI, and Tailwind CSS."
-  },
-  "DashboardIndex": {
-    "title_bar": "Dashboard",
-    "title_bar_description": "Welcome to your dashboard",
-    "message_state_title": "Let's get started",
-    "message_state_description": "You can customize this page by editing the file at <code>src/app/[locale]/(auth)/dashboard/page.tsx</code>",
-    "message_state_button": "Read the documentation"
-  },
-  "UserProfile": {
-    "title_bar": "User Profile",
-    "title_bar_description": "View and manage your user profile"
-  },
-  "OrganizationProfile": {
-    "title_bar": "Organization Management",
-    "title_bar_description": "Manage your organization"
-  },
-  "Billing": {
-    "title_bar": "Billing",
-    "title_bar_description": "Manage your billing and subscription",
-    "current_section_title": "Current Plan",
-    "current_section_description": "Adjust your payment plan to best suit your requirements",
-    "manage_subscription_button": "Manage Subscription"
-  },
-  "BillingOptions": {
-    "current_plan": "Current Plan",
-    "upgrade_plan": "Get Started"
-  },
-  "CurrentPlanDetails": {
-    "next_renew_date": "Your subscription renews on {date}"
-  },
-  "CheckoutConfirmation": {
-    "title_bar": "Payment Confirmation",
-    "message_state_title": "Payment successful",
-    "message_state_description": "Your payment has been successfully processed. Thank you for your purchase!",
-    "message_state_button": "Go back to Billing"
-  },
-  "Todos": {
-    "title_bar": "Todo List",
-    "title_bar_description": "View and manage your todo list",
-    "add_todo_button": "New todo"
-  },
-  "TodoTableColumns": {
-    "open_menu": "Open menu",
-    "edit": "Edit",
-    "delete": "Delete",
-    "title_header": "Title",
-    "message_header": "Message"
-  },
-  "AddTodo": {
-    "title_bar": "Add Todo",
-    "add_todo_section_title": "Create a new todo",
-    "add_todo_section_description": "Fill in the form below to create a new todo"
-  },
-  "EditTodo": {
-    "title_bar": "Edit todo",
-    "edit_todo_section_title": "Modify todo",
-    "edit_todo_section_description": "Fill in the form below to edit the todo"
-  },
-  "TodoForm": {
-    "title_label": "Title",
-    "title_description": "Enter a descriptive title for your todo.",
-    "message_title": "Message",
-    "message_description": "Enter a detailed message for your todo.",
-    "submit_button": "Submit"
   }
 }

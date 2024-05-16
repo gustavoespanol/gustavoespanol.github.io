@@ -11,7 +11,7 @@ const Navbar = () => {
   const t = useTranslations('Navbar');
 
   return (
-    <Section className="fixed inset-x-0 top-0 z-[9999] bg-white px-3 py-3 drop-shadow-md">
+    <Section className="fixed inset-x-0 top-0 z-[9] bg-white p-3 drop-shadow-md">
       <CenteredMenu
         logo={<Logo />}
         rightMenu={
