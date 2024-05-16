@@ -17,12 +17,7 @@ const ToggleMenuButtonInternal = (
   props: IToggleMenuButtonProps,
   ref?: ForwardedRef<HTMLButtonElement>,
 ) => (
-  <Button
-    className="p-2 focus-visible:ring-offset-0"
-    variant="ghost"
-    ref={ref}
-    {...props}
-  >
+  <Button className="p-2 focus-visible:ring-offset-0" variant="ghost" ref={ref} {...props}>
     <svg
       className="size-6 stroke-current"
       xmlns="http://www.w3.org/2000/svg"

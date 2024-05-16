@@ -1,6 +1,6 @@
 import type { LocalePrefix } from '@/../node_modules/next-intl/dist/types/src/shared/types';
 
-import { PAYMENT_INTERVAL, type PricingPlan } from '../types/Plans';
+import { type PricingPlan } from '../types/Plans';
 
 const localePrefix: LocalePrefix = 'as-needed';
 
@@ -24,18 +24,24 @@ export const AllLocales = AppConfig.locales.map((locale) => locale.id);
 
 export const PLAN_TYPE = {
   INDIVIDUAL: 'individual',
+  PAIR: 'pair',
   GROUP: 'group',
 } as const;
 
 export const PricingPlanList: Array<PricingPlan> = [
   {
     id: PLAN_TYPE.INDIVIDUAL,
+    price: 22,
+    features: ['individual_feature_1', 'individual_feature_2', 'individual_feature_3'],
+  },
+  {
+    id: PLAN_TYPE.PAIR,
     price: 18,
-    interval: PAYMENT_INTERVAL.MONTH,
+    features: ['pair_feature_1', 'pair_feature_2', 'pair_feature_3'],
   },
   {
     id: PLAN_TYPE.GROUP,
-    price: 15,
-    interval: PAYMENT_INTERVAL.MONTH,
+    price: 12,
+    features: ['group_feature_1', 'group_feature_2', 'group_feature_3'],
   },
 ];

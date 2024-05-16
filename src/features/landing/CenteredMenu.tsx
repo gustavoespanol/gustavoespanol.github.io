@@ -17,29 +17,25 @@ const CenteredMenu = (props: {
 
   return (
     <div className="flex flex-wrap items-center justify-between">
-    <Link href="/">{props.logo}</Link>
+      <Link href="/">{props.logo}</Link>
 
-    <div className="lg:hidden [&_button:hover]:opacity-100 [&_button]:opacity-60">
-      <ToggleMenuButton onClick={handleToggleMenu} />
+      <div className="lg:hidden [&_button:hover]:opacity-100 [&_button]:opacity-60">
+        <ToggleMenuButton onClick={handleToggleMenu} />
+      </div>
+
+      <nav className={cn('rounded-t max-lg:mt-2', navClass)}>
+        <ul className="flex gap-x-6 gap-y-1 text-lg font-medium max-lg:flex-col [&_a:hover]:opacity-100 [&_a]:opacity-60 max-lg:[&_a]:inline-block max-lg:[&_a]:w-full">
+          {props.children}
+        </ul>
+      </nav>
+
+      <div className={cn('rounded-b max-lg:border-t max-lg:border-border', navClass)}>
+        <ul className="flex flex-row items-center gap-x-4 text-lg font-medium [&_li:not(:last-child):hover]:opacity-100 [&_li:not(:last-child)]:opacity-60">
+          {props.rightMenu}
+        </ul>
+      </div>
     </div>
-
-    <nav className={cn('rounded-t max-lg:mt-2', navClass)}>
-      <ul className="flex gap-x-6 gap-y-1 text-lg font-medium max-lg:flex-col [&_a:hover]:opacity-100 [&_a]:opacity-60 max-lg:[&_a]:inline-block max-lg:[&_a]:w-full">
-        {props.children}
-      </ul>
-    </nav>
-
-    <div
-      className={cn(
-        'rounded-b max-lg:border-t max-lg:border-border',
-        navClass,
-      )}
-    >
-      <ul className="flex flex-row items-center gap-x-4 text-lg font-medium [&_li:not(:last-child):hover]:opacity-100 [&_li:not(:last-child)]:opacity-60">
-        {props.rightMenu}
-      </ul>
-    </div>
-  </div>
-)};
+  );
+};
 
 export { CenteredMenu };

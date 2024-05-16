@@ -1,15 +1,9 @@
 import { useTranslations } from 'next-intl';
 import React from 'react';
 
-import type { PaymentInterval, PlanType } from '@/types/Plans';
+import type { PlanType } from '@/types/Plans';
 
-const PricingCard = (props: {
-  planType: PlanType;
-  price: number;
-  interval: PaymentInterval;
-  button: React.ReactNode;
-  children: React.ReactNode;
-}) => {
+const PricingCard = (props: { planType: PlanType; price: number; children: React.ReactNode }) => {
   const tPricingPlan = useTranslations('PricingPlan');
 
   return (
@@ -19,16 +13,12 @@ const PricingCard = (props: {
       <div className="mt-3 flex items-center justify-center">
         <div className="text-5xl font-bold">${props.price}</div>
 
-        <div className="ml-1 text-muted-foreground">
-          / {tPricingPlan(`plan_interval_${props.interval}`)}
-        </div>
+        <div className="ml-1 text-muted-foreground">/ {tPricingPlan('plan_interval')}</div>
       </div>
 
       <div className="mt-2 text-sm text-muted-foreground">
         {tPricingPlan(`${props.planType}_plan_description`)}
       </div>
-
-      {props.button}
 
       <ul className="mt-8 space-y-3">{props.children}</ul>
     </div>

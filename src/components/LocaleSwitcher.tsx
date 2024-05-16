@@ -1,5 +1,6 @@
 'use client';
 
+import { GlobeIcon } from '@radix-ui/react-icons';
 import { useLocale } from 'next-intl';
 
 import {
@@ -11,7 +12,6 @@ import {
 } from '@/components/ui/dropdown-menu';
 import { usePathname, useRouter } from '@/libs/i18nNavigation';
 import { AppConfig } from '@/utils/AppConfig';
-import { GlobeIcon } from '@radix-ui/react-icons';
 
 export default function LocaleSwitcher() {
   const router = useRouter();

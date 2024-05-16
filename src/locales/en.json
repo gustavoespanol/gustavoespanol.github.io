@@ -6,7 +6,7 @@
   "Navbar": {
     "method": "Method",
     "services": "Services",
-    "prices": "Prices",
+    "prices": "Pricing",
     "contact": "Contact"
   },
   "Hero": {
@@ -28,19 +28,25 @@
     "service3_description": "Prepare for the DELE exam with tailored training focused on specific skills tested in each level. Includes text correction, speaking evaluations, reading and listening strategies."
   },
   "Pricing": {
-    "section_subtitle": "Features",
-    "section_title": "Unlock the Full Potential of the SaaS Template",
-    "section_description": "A free and open-source landing page template for your SaaS business, built with Next.js, TypeScript, Shadcn UI, and Tailwind CSS.",
-    "button_text": "Get Started"
+    "section_title": "Pricing"
   },
   "PricingPlan": {
-    "group_plan_name": "Free",
-    "individual_plan_name": "Premium",
-    "group_plan_description": "For individuals",
-    "individual_plan_description": "For small teams",
-    "feature_email_support": "Email Support",
-    "plan_interval_month": "month",
-    "plan_interval_year": "year"
+    "individual_plan_name": "Individual",
+    "pair_plan_name": "Pair",
+    "group_plan_name": "Group",
+    "individual_plan_description": "per class",
+    "pair_plan_description": "per person",
+    "group_plan_description": "per person",
+    "individual_feature_1": "Personalized Attention",
+    "individual_feature_2": "Focused Learning",
+    "individual_feature_3": "Confidence Building",
+    "pair_feature_1": "Interactive Learning",
+    "pair_feature_2": "Shared Motivation",
+    "pair_feature_3": "Practice Partner",
+    "group_feature_1": "Social Interaction and Learning",
+    "group_feature_2": "Diverse Perspectives",
+    "group_feature_3": "Cost-effective",
+    "plan_interval": "hour"
   },
   "CTA": {
     "title": "You are ready?",

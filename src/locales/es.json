@@ -1,155 +1,152 @@
 {
-    "Index": {
-      "meta_title": "SaaS Template - Le template SaaS parfait pour construire et mettre à l'échelle votre entreprise en toute simplicité.",
-      "meta_description": "Un template gratuit et open-source de landing page pour votre entreprise SaaS, construit avec Next.js, TypeScript, Shadcn UI et Tailwind CSS."
-    },
-    "Navbar": {
-      "product": "Produit",
-      "docs": "Docs",
-      "blog": "Blog",
-      "community": "Communauté",
-      "company": "Entreprise"
-    },
-    "Hero": {
-      "follow_twitter": "Suivez @Ixartz sur Twitter",
-      "title": "Le parfait <important>SaaS template</important> pour construire et mettre à l'échelle votre entreprise en toute simplicité.",
-      "description": "Un template gratuit et open-source de landing page pour votre entreprise SaaS, construit avec Next.js, TypeScript, Shadcn UI et Tailwind CSS.",
-      "primary_button": "Démarrer",
-      "secondary_button": "Mettez une étoile sur GitHub"
-    },
-    "Sponsors": {
-      "title": "Sponsorisé par"
-    },
-    "Features": {
-      "section_subtitle": "Fonctionnalités",
-      "section_title": "Débloquer le plein potentiel du SaaS Template",
-      "section_description": "Un template gratuit et open-source de landing page pour votre entreprise SaaS, construit avec Next.js, TypeScript, Shadcn UI et Tailwind CSS.",
-      "feature1_title": "Next.js",
-      "feature2_title": "React",
-      "feature3_title": "Tailwind CSS",
-      "feature4_title": "TypeScript",
-      "feature5_title": "Shadcn UI",
-      "feature6_title": "ESLint",
-      "feature_description": "Un template gratuit et open-source de landing page pour votre entreprise SaaS, construit avec Next.js, TypeScript, Shadcn UI et Tailwind CSS."
-    },
-    "Pricing": {
-      "section_subtitle": "Fonctionnalités",
-      "section_title": "Débloquer le plein potentiel du SaaS Template",
-      "section_description": "Un template gratuit et open-source de landing page pour votre entreprise SaaS, construit avec Next.js, TypeScript, Shadcn UI et Tailwind CSS.",
-      "button_text": "Démarrer"
-    },
-    "PricingPlan": {
-      "individual_plan_name": "Gratuit",
-      "group_plan_name": "Premium",
-      "individual_plan_description": "Pour les particuliers",
-      "group_plan_description": "Pour les petites équipes",
-      "feature_email_support": "Support par e-mail",
-      "plan_interval_month": "mois",
-      "plan_interval_year": "année"
-    },
-    "CTA": {
-      "title": "Vous êtes prêt?",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      "button_text": "Mettez une étoile sur GitHub"
-    },
-    "Footer": {
-      "product": "Produit",
-      "docs": "Docs",
-      "blog": "Blog",
-      "community": "Communauté",
-      "company": "Entreprise",
-      "terms_of_service": "Conditions d'utilisation",
-      "privacy_policy": "Politique de confidentialité",
-      "designed_by": "Designé by <author></author>"
-    },
-    "ProtectFallback": {
-      "not_enough_permission": "Vous n'avez pas les permissions pour effectuer cette action"
-    },
-    "SignIn": {
-      "meta_title": "Se connecter",
-      "meta_description": "Connectez-vous à votre compte avec facilité."
-    },
-    "SignUp": {
-      "meta_title": "S'inscrire",
-      "meta_description": "Créez un compte sans effort grâce à notre processus d'inscription intuitif."
-    },
-    "DashboardLayout": {
-      "home": "Accueil",
-      "todos": "Todos",
-      "members": "Membres",
-      "billing": "Facturation",
-      "settings": "Réglages"
-    },
-    "Dashboard": {
-      "meta_title": "Tableau de bord du SaaS Template",
-      "meta_description": "Un template gratuit et open-source de landing page pour votre entreprise SaaS, construit avec Next.js, TypeScript, Shadcn UI et Tailwind CSS."
-    },
-    "DashboardIndex": {
-      "title_bar": "Tableau de bord",
-      "title_bar_description": "Bienvenue sur votre tableau de bord",
-      "message_state_title": "C'est parti",
-      "message_state_description": "Vous pouvez personnaliser cette page en modifiant le fichier dans <code>src/app/[locale]/(auth)/dashboard/page.tsx</code>",
-      "message_state_button": "Lire la documentation"
-    },
-    "UserProfile": {
-      "title_bar": "Profil utilisateur",
-      "title_bar_description": "Afficher et gérer votre profil utilisateur"
-    },
-    "OrganizationProfile": {
-      "title_bar": "Gestion de l’organisation",
-      "title_bar_description": "Gérer votre organisation"
-    },
-    "Billing": {
-      "title_bar": "Facturation",
-      "title_bar_description": "Gérer votre facturation et votre abonnement",
-      "current_section_title": "Plan actuel",
-      "current_section_description": "Ajuster votre plan de paiement pour le mieux répondre à vos besoins",
-      "manage_subscription_button": "Gérer l'abonnement"
-    },
-    "BillingOptions": {
-      "current_plan": "Plan actuel",
-      "upgrade_plan": "Démarrer"
-    },
-    "CurrentPlanDetails": {
-      "next_renew_date": "Votre abonnement sera renouvelé le {date}"
-    },
-    "CheckoutConfirmation": {
-      "title_bar": "Confirmation du paiement",
-      "message_state_title": "Paiement accepté",
-      "message_state_description": "Votre paiement a été traité avec succès. Merci pour votre achat !",
-      "message_state_button": "Revenir à la facturation"
-    },
-    "DataTable": {
-      "no_results": "Aucun résultat."
-    },
-    "Todos": {
-      "title_bar": "Liste de Todos",
-      "title_bar_description": "Afficher et gérer votre liste de todos",
-      "add_todo_button": "Nouveau todo"
-    },
-    "TodoTableColumns": {
-      "open_menu": "Ouvrir le menu",
-      "edit": "Modifier",
-      "delete": "Supprimer",
-      "title_header": "Titre",
-      "message_header": "Message"
-    },
-    "AddTodo": {
-      "title_bar": "Ajouter une todo",
-      "add_todo_section_title": "Créer une nouvelle todo",
-      "add_todo_section_description": "Remplissez le formulaire ci-dessous pour créer une nouvelle todo"
-    },
-    "EditTodo": {
-      "title_bar": "Editer le todo",
-      "edit_todo_section_title": "Modifier le todo",
-      "edit_todo_section_description": "Remplissez le formulaire ci-dessous pour modifier la todo"
-    },
-    "TodoForm": {
-      "title_label": "Titre",
-      "title_description": "Entrez un titre descriptif pour votre todo.",
-      "message_title": "Message",
-      "message_description": "Entrez un message détaillé pour votre todo.",
-      "submit_button": "Envoyer"
-    }
+  "Index": {
+    "meta_title": "Unlock your Spanish Journey: dynamic learning with Gustavo!",
+    "meta_description": "Experience interactive lessons infused with real-life scenarios, designed to accelerate your path to fluency, adapted fluidly to your schedule and learning preferences. Join my vibrant community of learners and unlock the joy of mastering Spanish with confidence!"
+  },
+  "Navbar": {
+    "method": "Method",
+    "services": "Services",
+    "prices": "Pricing",
+    "contact": "Contact"
+  },
+  "Hero": {
+    "title": "Unlock your <important>Spanish Journey</important>: dynamic learning with Gustavo!",
+    "description": "Experience interactive lessons infused with real-life scenarios, designed to accelerate your path to fluency, adapted fluidly to your schedule and learning preferences. Join my vibrant community of learners and unlock the joy of mastering Spanish with confidence!",
+    "primary_button": "My method",
+    "secondary_button": "Contact me!"
+  },
+  "Sponsors": {
+    "title": "Sponsored by"
+  },
+  "Services": {
+    "section_title": "Services",
+    "service1_title": "Translation",
+    "service2_title": "Revision",
+    "service3_title": "DELE Exam Preparation",
+    "service1_description": "Translate academic papers, books, videos, letters, emails, menus, websites, etc., between English and Spanish. No sworn translations.",
+    "service2_description": "Revise Spanish texts, including academic papers, books, scripts, letters, emails, menus, and websites. No text revision in English.",
+    "service3_description": "Prepare for the DELE exam with tailored training focused on specific skills tested in each level. Includes text correction, speaking evaluations, reading and listening strategies."
+  },
+  "Pricing": {
+    "section_title": "Pricing"
+  },
+  "PricingPlan": {
+    "individual_plan_name": "Individual",
+    "pair_plan_name": "Pair",
+    "group_plan_name": "Group",
+    "individual_plan_description": "per class",
+    "pair_plan_description": "per person",
+    "group_plan_description": "per person",
+    "individual_feature_1": "Personalized Attention",
+    "individual_feature_2": "Focused Learning",
+    "individual_feature_3": "Confidence Building",
+    "pair_feature_1": "Interactive Learning",
+    "pair_feature_2": "Shared Motivation",
+    "pair_feature_3": "Practice Partner",
+    "group_feature_1": "Social Interaction and Learning",
+    "group_feature_2": "Diverse Perspectives",
+    "group_feature_3": "Cost-effective",
+    "plan_interval": "hour"
+  },
+  "CTA": {
+    "title": "You are ready?",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "button_text": "Star on GitHub"
+  },
+  "Footer": {
+    "product": "Product",
+    "docs": "Docs",
+    "blog": "Blog",
+    "community": "Community",
+    "company": "Company",
+    "terms_of_service": "Terms Of Service",
+    "privacy_policy": "Privacy Policy",
+    "designed_by": "Designed by <author></author>"
+  },
+  "ProtectFallback": {
+    "not_enough_permission": "You do not have the permissions to perform this action"
+  },
+  "SignIn": {
+    "meta_title": "Sign in",
+    "meta_description": "Seamlessly sign in to your account with our user-friendly login process."
+  },
+  "SignUp": {
+    "meta_title": "Sign up",
+    "meta_description": "Effortlessly create an account through our intuitive sign-up process."
+  },
+  "DashboardLayout": {
+    "home": "Home",
+    "todos": "Todos",
+    "members": "Members",
+    "billing": "Billing",
+    "settings": "Settings"
+  },
+  "Dashboard": {
+    "meta_title": "SaaS Template Dashboard",
+    "meta_description": "A free and open-source landing page template for your SaaS business, built with Next.js, TypeScript, Shadcn UI, and Tailwind CSS."
+  },
+  "DashboardIndex": {
+    "title_bar": "Dashboard",
+    "title_bar_description": "Welcome to your dashboard",
+    "message_state_title": "Let's get started",
+    "message_state_description": "You can customize this page by editing the file at <code>src/app/[locale]/(auth)/dashboard/page.tsx</code>",
+    "message_state_button": "Read the documentation"
+  },
+  "UserProfile": {
+    "title_bar": "User Profile",
+    "title_bar_description": "View and manage your user profile"
+  },
+  "OrganizationProfile": {
+    "title_bar": "Organization Management",
+    "title_bar_description": "Manage your organization"
+  },
+  "Billing": {
+    "title_bar": "Billing",
+    "title_bar_description": "Manage your billing and subscription",
+    "current_section_title": "Current Plan",
+    "current_section_description": "Adjust your payment plan to best suit your requirements",
+    "manage_subscription_button": "Manage Subscription"
+  },
+  "BillingOptions": {
+    "current_plan": "Current Plan",
+    "upgrade_plan": "Get Started"
+  },
+  "CurrentPlanDetails": {
+    "next_renew_date": "Your subscription renews on {date}"
+  },
+  "CheckoutConfirmation": {
+    "title_bar": "Payment Confirmation",
+    "message_state_title": "Payment successful",
+    "message_state_description": "Your payment has been successfully processed. Thank you for your purchase!",
+    "message_state_button": "Go back to Billing"
+  },
+  "Todos": {
+    "title_bar": "Todo List",
+    "title_bar_description": "View and manage your todo list",
+    "add_todo_button": "New todo"
+  },
+  "TodoTableColumns": {
+    "open_menu": "Open menu",
+    "edit": "Edit",
+    "delete": "Delete",
+    "title_header": "Title",
+    "message_header": "Message"
+  },
+  "AddTodo": {
+    "title_bar": "Add Todo",
+    "add_todo_section_title": "Create a new todo",
+    "add_todo_section_description": "Fill in the form below to create a new todo"
+  },
+  "EditTodo": {
+    "title_bar": "Edit todo",
+    "edit_todo_section_title": "Modify todo",
+    "edit_todo_section_description": "Fill in the form below to edit the todo"
+  },
+  "TodoForm": {
+    "title_label": "Title",
+    "title_description": "Enter a descriptive title for your todo.",
+    "message_title": "Message",
+    "message_description": "Enter a detailed message for your todo.",
+    "submit_button": "Submit"
   }
-  
+}
