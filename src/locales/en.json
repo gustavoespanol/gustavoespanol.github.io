@@ -1,21 +1,19 @@
 {
   "Index": {
-    "meta_title": "SaaS Template - The perfect SaaS template to build and scale your business with ease.",
-    "meta_description": "A free and open-source landing page template for your SaaS business, built with Next.js, TypeScript, Shadcn UI, and Tailwind CSS."
+    "meta_title": "Spanish Journey - Unlock your Spanish Journey: dive into dynamic learning with Gustavo!",
+    "meta_description": "Experience interactive lessons infused with real-life scenarios, designed to accelerate your path to fluency, adapted fluidly to your schedule and learning preferences. Join my vibrant community of learners and unlock the joy of mastering Spanish with confidence!"
   },
   "Navbar": {
-    "product": "Product",
-    "docs": "Docs",
-    "blog": "Blog",
-    "community": "Community",
-    "company": "Company"
+    "method": "Method",
+    "services": "Services",
+    "prices": "Prices",
+    "contact": "Contact"
   },
   "Hero": {
-    "follow_twitter": "Follow @Ixartz on Twitter",
-    "title": "The perfect <important>SaaS template</important> to build and scale your business with ease.",
-    "description": "A free and open-source landing page template for your SaaS business, built with Next.js, TypeScript, Shadcn UI, and Tailwind CSS.",
-    "primary_button": "Get Started",
-    "secondary_button": "Star on GitHub"
+    "title": "Unlock your <important>Spanish Journey</important>: dive into dynamic learning with Gustavo!",
+    "description": "Experience interactive lessons infused with real-life scenarios, designed to accelerate your path to fluency, adapted fluidly to your schedule and learning preferences. Join my vibrant community of learners and unlock the joy of mastering Spanish with confidence!",
+    "primary_button": "My method",
+    "secondary_button": "Contact me!"
   },
   "Sponsors": {
     "title": "Sponsored by"

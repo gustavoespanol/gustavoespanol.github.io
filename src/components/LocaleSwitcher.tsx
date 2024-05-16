@@ -11,11 +11,13 @@ import {
 } from '@/components/ui/dropdown-menu';
 import { usePathname, useRouter } from '@/libs/i18nNavigation';
 import { AppConfig } from '@/utils/AppConfig';
+import { GlobeIcon } from '@radix-ui/react-icons';
 
 export default function LocaleSwitcher() {
   const router = useRouter();
   const pathname = usePathname();
   const locale = useLocale();
+  const localeName = AppConfig.locales.find((loc) => loc.id === locale)?.name;
 
   const handleChange = (value: string) => {
     router.push(pathname, { locale: value });
@@ -24,19 +26,11 @@ export default function LocaleSwitcher() {
 
   return (
     <DropdownMenu>
-      <DropdownMenuTrigger asChild>
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          className="size-6 stroke-current stroke-2"
-          fill="none"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          viewBox="0 0 24 24"
-        >
-          <path stroke="none" d="M0 0h24v24H0z" />
-          <path d="M3 12a9 9 0 1 0 18 0 9 9 0 0 0-18 0M3.6 9h16.8M3.6 15h16.8" />
-          <path d="M11.5 3a17 17 0 0 0 0 18M12.5 3a17 17 0 0 1 0 18" />
-        </svg>
+      <DropdownMenuTrigger asChild className="cursor-pointer">
+        <div className="flex gap-2">
+          {localeName}
+          <GlobeIcon className="size-7" />
+        </div>
       </DropdownMenuTrigger>
       <DropdownMenuContent>
         <DropdownMenuRadioGroup value={locale} onValueChange={handleChange}>
