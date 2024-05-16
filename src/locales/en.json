@@ -18,17 +18,14 @@
   "Sponsors": {
     "title": "Sponsored by"
   },
-  "Features": {
-    "section_subtitle": "Features",
-    "section_title": "Unlock the Full Potential of the SaaS Template",
-    "section_description": "A free and open-source landing page template for your SaaS business, built with Next.js, TypeScript, Shadcn UI, and Tailwind CSS.",
-    "feature1_title": "Next.js",
-    "feature2_title": "React",
-    "feature3_title": "Tailwind CSS",
-    "feature4_title": "TypeScript",
-    "feature5_title": "Shadcn UI",
-    "feature6_title": "ESLint",
-    "feature_description": "A free and open-source landing page template for your SaaS business, built with Next.js, TypeScript, Shadcn UI, and Tailwind CSS."
+  "Services": {
+    "section_title": "Services",
+    "service1_title": "Translation",
+    "service2_title": "Revision",
+    "service3_title": "DELE Exam Preparation",
+    "service1_description": "Translate academic papers, books, videos, letters, emails, menus, websites, etc., between English and Spanish. No sworn translations.",
+    "service2_description": "Revise Spanish texts, including academic papers, books, scripts, letters, emails, menus, and websites. No text revision in English.",
+    "service3_description": "Prepare for the DELE exam with tailored training focused on specific skills tested in each level. Includes text correction, speaking evaluations, reading and listening strategies."
   },
   "Pricing": {
     "section_subtitle": "Features",

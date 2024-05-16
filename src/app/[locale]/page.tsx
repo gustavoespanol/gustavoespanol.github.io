@@ -1,7 +1,7 @@
 'use client';
 
 import { CTA } from '@/templates/CTA';
-import { Features } from '@/templates/Features';
+import { Services } from '@/templates/Services';
 import { Footer } from '@/templates/Footer';
 import { Hero } from '@/templates/Hero';
 import { Navbar } from '@/templates/Navbar';
@@ -12,7 +12,7 @@ export default function IndexPage() {
     <>
       <Navbar />
       <Hero />
-      <Features />
+      <Services />
       <Pricing />
       <CTA />
       <Footer />
