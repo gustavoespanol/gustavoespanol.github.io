@@ -41,9 +41,6 @@ const config: Config = {
           foreground: 'hsl(var(--card-foreground))',
         },
       },
-      backgroundImage: {
-        map: "url('/assets/images/map.webp')",
-      },
       borderRadius: {
         lg: 'var(--radius)',
         md: 'calc(var(--radius) - 2px)',

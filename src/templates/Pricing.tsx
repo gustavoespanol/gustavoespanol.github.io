@@ -6,7 +6,7 @@ import { Section } from '@/features/landing/Section';
 import { PricingPlanList } from '@/utils/AppConfig';
 
 const Pricing = () => {
-  const t = useTranslations('Pricing');
+  const t = useTranslations('PricingPlan');
 
   return (
     <Section id="pricing" title={t('title')}>

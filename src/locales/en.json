@@ -31,6 +31,7 @@
     "title": "Pricing"
   },
   "PricingPlan": {
+    "title": "Pricing",
     "individual_plan_name": "Individual",
     "pair_plan_name": "Pair",
     "group_plan_name": "Group",
