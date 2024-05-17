@@ -14,7 +14,7 @@ const MethodCard = (props: {
   image: any;
   bullets: Bullet[];
 }) => (
-  <div className="mb-20 flex flex-wrap lg:flex-nowrap lg:gap-10 ">
+  <div className="flex flex-wrap lg:flex-nowrap lg:gap-10 ">
     <div
       className={`flex w-full items-center justify-center lg:w-1/2 ${
         props.imgPosition === 'right' ? 'lg:order-1' : ''
