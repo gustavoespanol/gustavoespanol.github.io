@@ -1,4 +1,3 @@
-import { EnvelopeIcon } from '@heroicons/react/24/solid';
 import { RocketIcon } from '@radix-ui/react-icons';
 import { useTranslations } from 'next-intl';
 
