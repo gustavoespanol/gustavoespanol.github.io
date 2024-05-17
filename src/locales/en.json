@@ -15,8 +15,11 @@
     "primary_button": "My method",
     "secondary_button": "Contact me!"
   },
+  "Method": {
+    "title": "Method"
+  },
   "Services": {
-    "section_title": "Services",
+    "title": "Services",
     "service1_title": "Translation",
     "service2_title": "Revision",
     "service3_title": "DELE Exam Preparation",
@@ -25,7 +28,7 @@
     "service3_description": "Prepare for the DELE exam with tailored training focused on specific skills tested in each level. Includes text correction, speaking evaluations, reading and listening strategies."
   },
   "Pricing": {
-    "section_title": "Pricing"
+    "title": "Pricing"
   },
   "PricingPlan": {
     "individual_plan_name": "Individual",

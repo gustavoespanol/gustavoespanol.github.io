@@ -7,7 +7,7 @@ const Pricing = () => {
   const t = useTranslations('Pricing');
 
   return (
-    <Section title={t('section_title')}>
+    <Section title={t('title')}>
       <PricingInformation />
     </Section>
   );

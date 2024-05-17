@@ -41,7 +41,7 @@ export const PricingPlanList: Array<PricingPlan> = [
   },
   {
     id: PLAN_TYPE.GROUP,
-    price: 12,
+    price: 15,
     features: ['group_feature_1', 'group_feature_2', 'group_feature_3'],
   },
 ];

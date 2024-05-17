@@ -1,4 +1,5 @@
-import { EnvelopeClosedIcon, RocketIcon } from '@radix-ui/react-icons';
+import { EnvelopeIcon } from '@heroicons/react/24/solid';
+import { RocketIcon } from '@radix-ui/react-icons';
 import { useTranslations } from 'next-intl';
 
 import { buttonVariants } from '@/components/ui/button';
@@ -33,7 +34,7 @@ const Hero = () => {
               className={buttonVariants({ variant: 'outline', size: 'lg' })}
               href="https://github.com/ixartz/SaaS-Boilerplate"
             >
-              <EnvelopeClosedIcon className="mr-2 size-5" />
+              <EnvelopeIcon className="mr-2 size-5" />
               {t('secondary_button')}
             </a>
           </>

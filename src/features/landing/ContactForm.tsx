@@ -1,4 +1,4 @@
-import { PaperPlaneIcon } from '@radix-ui/react-icons';
+import { PaperAirplaneIcon } from '@heroicons/react/24/outline';
 import { useTranslations } from 'next-intl';
 import { useState } from 'react';
 import { useForm } from 'react-hook-form';
@@ -163,7 +163,7 @@ const ContactForm = () => {
           onClick={handleSubmit(onSubmit)}
         >
           {t('send_message')}
-          <PaperPlaneIcon className="ml-2 size-5" />
+          <PaperAirplaneIcon className="ml-2 size-5" />
         </a>
       </div>
     </form>
