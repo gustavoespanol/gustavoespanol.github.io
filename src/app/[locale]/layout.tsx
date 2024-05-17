@@ -15,7 +15,29 @@ export async function generateMetadata({ params }: { params: { locale: string } 
 
   return {
     title: t('meta_title'),
-    description: t('meta_description'),
+    description: t('meta_title'),
+    icons: [
+      {
+        rel: 'apple-touch-icon',
+        url: '/apple-touch-icon.png',
+      },
+      {
+        rel: 'icon',
+        type: 'image/png',
+        sizes: '32x32',
+        url: '/favicon-32x32.png',
+      },
+      {
+        rel: 'icon',
+        type: 'image/png',
+        sizes: '16x16',
+        url: '/favicon-16x16.png',
+      },
+      {
+        rel: 'icon',
+        url: '/favicon.ico',
+      },
+    ],
   };
 }
 
