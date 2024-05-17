@@ -1,92 +1,92 @@
 {
   "Index": {
-    "meta_title": "Unlock your Spanish Journey: dynamic learning with Gustavo!",
-    "meta_description": "Experience interactive lessons infused with real-life scenarios, designed to accelerate your path to fluency, adapted fluidly to your schedule and learning preferences. Join my vibrant community of learners and unlock the joy of mastering Spanish with confidence!"
+    "meta_title": "Desbloqueie sua Jornada ao Espanhol: aprendizagem dinâmica com Gustavo!",
+    "meta_description": "Experimente as lições interativas infundidas com cenários de vida real, projetados para acelerar seu caminho para a fluência, adaptado fluentemente a sua programação e às suas preferências de aprendizagem. Junte-se à minha vibrante comunidade de estudantes e desbloqueie a alegria de dominar espanhol com confiança!"
   },
   "Navbar": {
-    "method": "Method",
-    "services": "Services",
-    "pricing": "Pricing",
-    "contact": "Contact"
+    "method": "Método",
+    "services": "Serviços",
+    "pricing": "Preços",
+    "contact": "Contato"
   },
   "Hero": {
-    "title": "Unlock your <important>Spanish Journey</important>: dynamic learning with Gustavo!",
-    "description": "Experience interactive lessons infused with real-life scenarios, designed to accelerate your path to fluency, adapted fluidly to your schedule and learning preferences. Join my vibrant community of learners and unlock the joy of mastering Spanish with confidence!",
-    "button": "Contact me!"
+    "title": "Desbloqueie sua <important>Jornada ao Espanhol</important>: aprendizagem dinâmica com Gustavo!",
+    "description": "Experimente as lições interativas infundidas com cenários de vida real, projetados para acelerar seu caminho para a fluência, adaptado fluentemente a sua programação e às suas preferências de aprendizagem. Junte-se à minha vibrante comunidade de estudantes e desbloqueie a alegria de dominar espanhol com confiança!",
+    "button": "Fale comigo!"
   },
   "Method": {
-    "title": "Method",
-    "online_title": "Online classes",
-    "online_description": "Enjoy the flexibility of learning Spanish online with my dynamic virtual classes. Stay motivated as you gain fluency and confidence from the comfort of your home. My personalized approach ensures your lessons fit into your lifestyle and learning preferences!",
-    "online_bullet1_title": "Flexible Scheduling",
-    "online_bullet1_description": "Fit your schedule and learn from anywhere.",
-    "online_bullet2_title": "Convenience of Virtual Learning",
-    "online_bullet2_description": "Study from the comfort of your home with online sessions.",
-    "online_bullet3_title": "Interactive Lessons",
-    "online_bullet3_description": "Engage in dynamic, interactive lessons that keep you motivated :)",
-    "in-person_title": "In-person classes",
-    "in-person_description": "Experience the immersive learning environment of my in-person Spanish classes in Lavapiés. Engage directly with your teacher and encounter real-life situations, ensuring you receive the attention and support needed to master the Spanish language.",
-    "in-person_bullet1_title": "Immersive Learning Experience",
-    "in-person_bullet1_description": "Face-to-face interaction and real-life situations.",
-    "in-person_bullet2_title": "Supportive Environment",
-    "in-person_bullet2_description": "Comfortable learning space designed for effective language acquisition.",
-    "in-person_bullet3_title": "Cultural connection in Lavapiés",
-    "in-person_bullet3_description": "Explore Madrid's vibrant Lavapiés neighborhood in our classes, and immerse yourself in local culture and language!"
+    "title": "Método",
+    "online_title": "Aulas Online",
+    "online_description": "Aproveite a flexibilidade de aprender espanhol online com minhas aulas virtuais dinâmicas. Mantenha-se motivado à medida que você ganha fluência e confiança com o conforto de sua casa. Minha abordagem personalizada garante que suas aulas se encaixam nas suas preferências de vida e de aprendizado!",
+    "online_bullet1_title": "Agendamento Flexível",
+    "online_bullet1_description": "Organize seus horários e aprenda de qualquer lugar.",
+    "online_bullet2_title": "Conveniência do Aprendizado Virtual",
+    "online_bullet2_description": "Estude no conforto de sua casa com as sessões online.",
+    "online_bullet3_title": "Aulas Interativas",
+    "online_bullet3_description": "Envolva-se em lições dinâmicas e interativas que te mantêm motivado :)",
+    "in-person_title": "Aulas presenciais",
+    "in-person_description": "Experiencie o ambiente de aprendizagem imersivo das minhas aulas presenciais de espanhol em Lavapiés. Envolva-se diretamente com seu professor e encontre situações da vida real, garantindo que você receba a atenção e o apoio necessários para dominar a língua espanhola.",
+    "in-person_bullet1_title": "Experiência de Aprendizado Imersiva",
+    "in-person_bullet1_description": "Interação face a face e situações da vida real.",
+    "in-person_bullet2_title": "Ambiente Apoiador",
+    "in-person_bullet2_description": "Espaço de aprendizagem confortável projetado para aquisição efetiva de idioma.",
+    "in-person_bullet3_title": "Conexão cultural em Lavapiés",
+    "in-person_bullet3_description": "Explore o vibrante bairro de Lavapiés em nossas classes e envolva-se na cultura e língua local!"
   },
   "Services": {
-    "title": "Services",
-    "service1_title": "Translation",
-    "service2_title": "Revision",
-    "service3_title": "DELE Exam Preparation",
-    "service1_description": "Translate academic papers, books, videos, letters, emails, menus, websites, etc., between English and Spanish. No sworn translations.",
-    "service2_description": "Revise Spanish texts, including academic papers, books, scripts, letters, emails, menus, and websites. No text revision in English.",
-    "service3_description": "Prepare for the DELE exam with tailored training focused on specific skills tested in each level. Includes text correction, speaking evaluations, reading and listening strategies."
+    "title": "Serviços",
+    "service1_title": "Tradução",
+    "service2_title": "Revisão",
+    "service3_title": "Preparação do exame DELE",
+    "service1_description": "Traduza jornais, livros, vídeos, letras, emails, menus, sites, etc. entre inglês e espanhol. Sem traduções juramentadas.",
+    "service2_description": "Revisar textos em espanhol, incluindo jornais acadêmicos, livros, scripts, letras, emails, menus e websites. Não reviso texto em inglês.",
+    "service3_description": "Prepare-se para o exame DELE com treinamento personalizado, focado em habilidades específicas testadas em cada nível. Inclui correção de texto, avaliações de fala, estratégias de leitura e de escuta."
   },
   "Pricing": {
-    "title": "Pricing"
+    "title": "Preços"
   },
   "PricingPlan": {
-    "title": "Pricing",
+    "title": "Preços",
     "individual_plan_name": "Individual",
-    "pair_plan_name": "Pair",
-    "group_plan_name": "Group",
-    "individual_plan_description": "per class",
-    "pair_plan_description": "per person",
-    "group_plan_description": "per person",
-    "individual_feature_1": "Personalized Attention",
-    "individual_feature_2": "Focused Learning",
-    "individual_feature_3": "Confidence Building",
-    "pair_feature_1": "Interactive Learning",
-    "pair_feature_2": "Shared Motivation",
-    "pair_feature_3": "Practice Partner",
-    "group_feature_1": "Social Interaction and Learning",
-    "group_feature_2": "Diverse Perspectives",
-    "group_feature_3": "Cost-effective",
-    "plan_interval": "hour"
+    "pair_plan_name": "Par",
+    "group_plan_name": "Grupo",
+    "individual_plan_description": "por aula",
+    "pair_plan_description": "por pessoa",
+    "group_plan_description": "por pessoa",
+    "individual_feature_1": "Atenção Personalizada",
+    "individual_feature_2": "Aprendizado em Foco",
+    "individual_feature_3": "Construção de Confiança",
+    "pair_feature_1": "Aulas Interativas",
+    "pair_feature_2": "Motivação Compartilhada",
+    "pair_feature_3": "Parceiro de Prática",
+    "group_feature_1": "Interação Social e Aprendizagem",
+    "group_feature_2": "Perspectivas Diversas",
+    "group_feature_3": "Econômico",
+    "plan_interval": "hora"
   },
   "Contact": {
-    "title": "Contact me :)",
-    "description": "Please fill out this form and let's get the conversation started!",
-    "name": "Name",
+    "title": "Fale comigo :)",
+    "description": "Por favor, preencha este formulário e vamos conversar!",
+    "name": "Nome",
     "email": "Email",
-    "phone": "Phone/WhatsApp",
-    "subject": "Subject",
-    "message": "Message",
-    "send_message": "Send message",
+    "phone": "Telefone/WhatsApp",
+    "subject": "Assunto",
+    "message": "Mensagem",
+    "send_message": "Enviar mensagem",
     "error": {
-      "required_field": "Required field",
-      "invalid_email": "Invalid email",
-      "must_be_a_number": "Must be a number"
+      "required_field": "Campo obrigatório",
+      "invalid_email": "Email inválido",
+      "must_be_a_number": "Deve ser um número"
     },
     "message_sent": {
-      "success": "Your message has been sent successfully! I'll get back to you as soon as possible. 😊",
-      "error": "An error occurred while sending your message. Please try again later."
+      "success": "Sua mensagem foi enviada com sucesso! Entrarei em contato assim que possível. 😊",
+      "error": "Ocorreu um erro ao enviar a mensagem. Por favor, tente novamente mais tarde."
     }
   },
   "Footer": {
-    "method": "Method",
-    "services": "Services",
-    "pricing": "Pricing",
-    "contact": "Contact"
+    "method": "Método",
+    "services": "Serviços",
+    "pricing": "Preços",
+    "contact": "Contato"
   }
 }

@@ -4,7 +4,7 @@ const FeatureCard = (props: { title: string; children: React.ReactNode }) => (
 
     <div className="my-3 w-8 border border-gray-400" />
 
-    <div className="mt-2 text-muted-foreground">{props.children}</div>
+    <div className="mt-2 text-muted-foreground ">{props.children}</div>
   </div>
 );
 

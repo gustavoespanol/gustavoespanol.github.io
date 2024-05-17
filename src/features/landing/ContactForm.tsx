@@ -54,7 +54,7 @@ const ContactForm = () => {
   return (
     <form className="flex flex-col gap-4" onSubmit={handleSubmit(onSubmit)}>
       <div className="w-full px-6">
-        <div className="flex gap-4 pb-4">
+        <div className="grid gap-4 pb-4 md:flex">
           <div className="w-full">
             <input
               className="block w-full appearance-none rounded border border-gray-100 bg-white px-4 py-3 leading-tight text-black focus:border-gray-500 focus:bg-white focus:outline-none"
@@ -96,7 +96,7 @@ const ContactForm = () => {
           </div>
         </div>
 
-        <div className="flex gap-4 pb-4">
+        <div className="grid gap-4 pb-4 md:flex">
           <div className="w-full">
             <input
               className="block w-full appearance-none rounded border border-gray-100 bg-white px-4 py-3 leading-tight text-black focus:border-gray-500 focus:bg-white focus:outline-none"
