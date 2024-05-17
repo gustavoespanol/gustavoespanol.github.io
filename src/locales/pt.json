@@ -16,7 +16,23 @@
     "secondary_button": "Contact me!"
   },
   "Method": {
-    "title": "Method"
+    "title": "Method",
+    "online_title": "Online classes",
+    "online_description": "Enjoy the flexibility of learning Spanish online with my dynamic virtual classes. Stay motivated as you gain fluency and confidence from the comfort of your home. My personalized approach ensures your lessons fit into your lifestyle and learning preferences!",
+    "online_bullet1_title": "Flexible Scheduling",
+    "online_bullet1_description": "Fit your schedule and learn from anywhere.",
+    "online_bullet2_title": "Convenience of Virtual Learning",
+    "online_bullet2_description": "Study from the comfort of your home with online sessions.",
+    "online_bullet3_title": "Interactive Lessons",
+    "online_bullet3_description": "Engage in dynamic, interactive lessons that keep you motivated :)",
+    "in-person_title": "In-person classes",
+    "in-person_description": "Experience the immersive learning environment of my in-person Spanish classes in Lavapiés. Engage directly with your teacher and encounter real-life situations, ensuring you receive the attention and support needed to master the Spanish language.",
+    "in-person_bullet1_title": "Immersive Learning Experience",
+    "in-person_bullet1_description": "Face-to-face interaction and real-life situations.",
+    "in-person_bullet2_title": "Supportive Environment",
+    "in-person_bullet2_description": "Comfortable learning space designed for effective language acquisition.",
+    "in-person_bullet3_title": "Cultural connection in Lavapiés",
+    "in-person_bullet3_description": "Explore Madrid's vibrant Lavapiés neighborhood in our classes, and immerse yourself in local culture and language!"
   },
   "Services": {
     "title": "Services",
@@ -31,6 +47,7 @@
     "title": "Pricing"
   },
   "PricingPlan": {
+    "title": "Pricing",
     "individual_plan_name": "Individual",
     "pair_plan_name": "Pair",
     "group_plan_name": "Group",

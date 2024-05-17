@@ -1,11 +1,11 @@
 import {
-  AdjustmentsHorizontalIcon,
-  ChartBarSquareIcon,
-  CursorArrowRaysIcon,
-  DevicePhoneMobileIcon,
-  FaceSmileIcon,
-  SunIcon,
-} from '@heroicons/react/24/solid';
+  CalendarDaysIcon,
+  ChatBubbleLeftRightIcon,
+  ChatBubbleOvalLeftEllipsisIcon,
+  ComputerDesktopIcon,
+  MapPinIcon,
+  UserGroupIcon,
+} from '@heroicons/react/24/outline';
 import { useTranslations } from 'next-intl';
 
 import { MethodCard } from '@/features/landing/MethodCard';
@@ -20,52 +20,48 @@ const Method = () => {
     <Section id="method" title={t('title')}>
       <MethodCard
         imgPosition="left"
-        title={'In person classes'}
-        description={
-          'You can use this same layout with a flip image to highlight your rest of the benefits of your product. It can also contain an image or Illustration as above section along with some bullet points.'
-        }
+        title={t('online_title')}
+        description={t('online_description')}
         image={OnlineClassImg}
         bullets={[
           {
-            title: 'Understand your customers',
-            desc: 'Then explain the first point breifly in one or two lines.',
-            icon: <FaceSmileIcon />,
+            title: t('online_bullet1_title'),
+            desc: t('online_bullet1_description'),
+            icon: <CalendarDaysIcon />,
           },
           {
-            title: 'Improve acquisition',
-            desc: 'Here you can add the next benefit point.',
-            icon: <ChartBarSquareIcon />,
+            title: t('online_bullet2_title'),
+            desc: t('online_bullet2_description'),
+            icon: <ComputerDesktopIcon />,
           },
           {
-            title: 'Drive customer retention',
-            desc: 'This will be your last bullet point in this section.',
-            icon: <CursorArrowRaysIcon />,
+            title: t('online_bullet3_title'),
+            desc: t('online_bullet3_description'),
+            icon: <ChatBubbleLeftRightIcon />,
           },
         ]}
       />
 
       <MethodCard
         imgPosition="right"
-        title={'Virtual classes'}
-        description={
-          'You can use this same layout with a flip image to highlight your rest of the benefits of your product. It can also contain an image or Illustration as above section along with some bullet points.'
-        }
+        title={t('in-person_title')}
+        description={t('in-person_description')}
         image={LiveClassImg}
         bullets={[
           {
-            title: 'Mobile Responsive Template',
-            desc: 'Nextly is designed as a mobile first responsive template.',
-            icon: <DevicePhoneMobileIcon />,
+            title: t('in-person_bullet1_title'),
+            desc: t('in-person_bullet1_description'),
+            icon: <ChatBubbleOvalLeftEllipsisIcon />,
           },
           {
-            title: 'Powered by Next.js & TailwindCSS',
-            desc: 'This template is powered by latest technologies and tools.',
-            icon: <AdjustmentsHorizontalIcon />,
+            title: t('in-person_bullet2_title'),
+            desc: t('in-person_bullet2_description'),
+            icon: <UserGroupIcon />,
           },
           {
-            title: 'Dark & Light Mode',
-            desc: 'Nextly comes with a zero-config light & dark mode. ',
-            icon: <SunIcon />,
+            title: t('in-person_bullet3_title'),
+            desc: t('in-person_bullet3_description'),
+            icon: <MapPinIcon />,
           },
         ]}
       />

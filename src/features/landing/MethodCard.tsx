@@ -71,7 +71,7 @@ const Benefit = (props: { key: number; icon: any; title: string; children: React
         </div>
         <div>
           <h4 className="font-medium">{props.title}</h4>
-          <p className="mt-1 text-muted-foreground">{props.children}</p>
+          <p className="mt-1 text-sm text-muted-foreground">{props.children}</p>
         </div>
       </div>
     </>
