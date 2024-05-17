@@ -22,18 +22,12 @@ const Hero = () => {
         description={t('description')}
         buttons={
           <>
-            <a
-              className={buttonVariants({ size: 'lg' })}
-              href="https://github.com/ixartz/SaaS-Boilerplate"
-            >
+            <a className={buttonVariants({ size: 'lg' })} href="#method">
               <RocketIcon className="mr-2 size-5" />
               {t('primary_button')}
             </a>
 
-            <a
-              className={buttonVariants({ variant: 'outline', size: 'lg' })}
-              href="https://github.com/ixartz/SaaS-Boilerplate"
-            >
+            <a className={buttonVariants({ variant: 'outline', size: 'lg' })} href="#contact">
               <EnvelopeIcon className="mr-2 size-5" />
               {t('secondary_button')}
             </a>

@@ -1,14 +1,24 @@
 import { useTranslations } from 'next-intl';
 
-import { PricingInformation } from '@/features/billing/PricingInformation';
+import { PricingCard } from '@/features/billing/PricingCard';
+import { PricingFeature } from '@/features/billing/PricingFeature';
 import { Section } from '@/features/landing/Section';
+import { PricingPlanList } from '@/utils/AppConfig';
 
 const Pricing = () => {
   const t = useTranslations('Pricing');
 
   return (
-    <Section title={t('title')}>
-      <PricingInformation />
+    <Section id="pricing" title={t('title')}>
+      <div className="grid grid-cols-1 gap-x-6 gap-y-8 md:grid-cols-3">
+        {PricingPlanList.map((plan) => (
+          <PricingCard key={plan.id} planType={plan.id} price={plan.price}>
+            {plan.features.map((feature) => (
+              <PricingFeature key={feature}>{t(feature)}</PricingFeature>
+            ))}
+          </PricingCard>
+        ))}
+      </div>
     </Section>
   );
 };

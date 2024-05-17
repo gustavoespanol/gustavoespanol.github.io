@@ -9,7 +9,7 @@ const Services = () => {
 
   return (
     <div className={cn('w-full bg-secondary')}>
-      <Section title={t('title')}>
+      <Section id="services" title={t('title')}>
         <div className="grid grid-cols-1 gap-x-3 gap-y-8 md:grid-cols-3">
           <FeatureCard title={t('service1_title')}>{t('service1_description')}</FeatureCard>
 

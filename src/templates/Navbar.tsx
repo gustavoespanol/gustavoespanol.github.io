@@ -11,7 +11,7 @@ const Navbar = () => {
   const t = useTranslations('Navbar');
 
   return (
-    <Section className="fixed inset-x-0 top-0 z-[9] bg-white p-3 drop-shadow-md">
+    <Section className="fixed inset-x-0 top-0 z-[9] bg-white p-3 drop-shadow">
       <CenteredMenu
         logo={<Logo />}
         rightMenu={
@@ -23,19 +23,19 @@ const Navbar = () => {
         }
       >
         <li>
-          <Link href="/">{t('method')}</Link>
+          <Link href="#method">{t('method')}</Link>
         </li>
 
         <li>
-          <Link href="/">{t('services')}</Link>
+          <Link href="#services">{t('services')}</Link>
         </li>
 
         <li>
-          <Link href="/">{t('prices')}</Link>
+          <Link href="#pricing">{t('pricing')}</Link>
         </li>
 
         <li>
-          <Link href="/">{t('contact')}</Link>
+          <Link href="#contact">{t('contact')}</Link>
         </li>
       </CenteredMenu>
     </Section>

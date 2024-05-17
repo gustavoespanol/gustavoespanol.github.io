@@ -6,7 +6,7 @@
   "Navbar": {
     "method": "Method",
     "services": "Services",
-    "prices": "Pricing",
+    "pricing": "Pricing",
     "contact": "Contact"
   },
   "Hero": {
@@ -63,18 +63,14 @@
       "must_be_a_number": "Must be a number"
     },
     "message_sent": {
-      "success": "Your message has been sent successfully!",
+      "success": "Your message has been sent successfully! I'll get back to you as soon as possible. 😊",
       "error": "An error occurred while sending your message. Please try again later."
     }
   },
   "Footer": {
-    "product": "Product",
-    "docs": "Docs",
-    "blog": "Blog",
-    "community": "Community",
-    "company": "Company",
-    "terms_of_service": "Terms Of Service",
-    "privacy_policy": "Privacy Policy",
-    "designed_by": "Designed by <author></author>"
+    "method": "Method",
+    "services": "Services",
+    "pricing": "Pricing",
+    "contact": "Contact"
   }
 }
