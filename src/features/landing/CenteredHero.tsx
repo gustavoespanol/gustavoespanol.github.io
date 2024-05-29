@@ -13,7 +13,7 @@ const CenteredHero = (props: {
       height={0}
       className="size-full self-center md:size-1/2"
     />
-    <div>
+    <div className="content-center">
       <div className="text-center"></div>
 
       <div className="mt-3 text-center text-4xl font-bold tracking-tight">{props.title}</div>
